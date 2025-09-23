@@ -10,6 +10,6 @@ class OtpScreen extends StatefulWidget {
 class _OtpScreenState extends State<OtpScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text("Lucky Singh Parihar "),),);
+    return Scaffold(appBar: AppBar(title: Text("Lucky Parihar "),),);
   }
 }
