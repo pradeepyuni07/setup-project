@@ -12,7 +12,15 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: const Text("This is login Screen for feature1 branch"),
+        child: Column(
+          children: <Widget>[
+            const Text("This is login Screen for feature1 branch"),
+            const Text("data1"),
+            const Text("data2"),
+            const Text("data3"),
+
+          ],
+        ),
       ),
     );
   }
