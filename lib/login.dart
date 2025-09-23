@@ -16,6 +16,7 @@ class _LoginState extends State<Login> {
           children: <Widget>[
             const Text("This is login Screen for feature1 branch"),
             const Text("data1"),
+            const Text("data2"),
 
           ],
         ),
